@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /offline-template.html
+
+Sitemap: https://santipongth.github.io/tci-research-atlas/sitemap.xml

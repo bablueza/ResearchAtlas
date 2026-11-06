@@ -1,0 +1,1 @@
+function l(t,o,n,r){const e=n==="en"?o:t,a=n==="en"?t:o;return e?{text:e,lang:null,fallback:!1}:a?{text:a,lang:n==="en"?"th":"en",fallback:!1}:{text:r,lang:null,fallback:!0}}function s(t,o,n){const r=n==="en"?o:t,e=n==="en"?t:o;return r&&e&&r!==e?e:""}export{s as o,l as s};

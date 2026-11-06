@@ -1,0 +1,1 @@
+import{c as r,j as e}from"./index-WbqEGXSW.js";function m({topic:n}){const{lang:a,name:s}=r();return a==="en"&&!n.en?e.jsx("span",{lang:"th",children:s(n)}):e.jsx(e.Fragment,{children:s(n)})}export{m as T};

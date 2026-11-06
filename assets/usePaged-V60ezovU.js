@@ -1,0 +1,1 @@
+import{ab as p}from"./index-WbqEGXSW.js";function u(e,t,s){return Math.max(0,Math.min(e,t*(s+1)))}function h(e,t,s=""){const[n,o]=p.useState({key:s,presses:0}),a=n.key===s?n.presses:0,r=u(e.length,t,a);return{shown:e.slice(0,r),more:{total:e.length,shown:r,step:t,onMore:()=>o({key:s,presses:a+1}),onReset:()=>o({key:s,presses:0})}}}export{h as u};
